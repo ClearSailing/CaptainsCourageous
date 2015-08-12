@@ -1,0 +1,159 @@
+@import url("reset.css"); 
+*{padding:0;margin:0;border:0;box-sizing: border-box;}
+
+body{background-image: url("../images/paper.jpg");box-sizing: border-box;}
+#maincontainer  {position:relative;background: url("../images/gloucester.png") no-repeat bottom left; }
+
+#content h1{font-size:60px; text-align:center; color:#EEA946; font-weight:bold;}
+#content h2{font-size:18px; text-align:center; color:#000; font-weight:bold;}
+#content h3{font-size:20px;line-height:1.25em;}
+#content h4{font-size:25px;line-height:1.25em;padding:20px 0px 10px 0; color:#EEA946; font-weight:bold;}
+
+.section_heading{position:relative;margin-top:10px;
+height: 40px;
+background:  url(../images/event_summary_background.png)  ;
+border-radius: 10px 10px 0 0;}
+
+
+
+.events, .sponsors{background-color: linen;border-radius: 0 0 10px 10px ;}
+
+
+.host_description{background: url("../images/content_background.png") repeat scroll 0 0 transparent;border-radius: 0 0 10px 10px ;padding:10px;}
+.event{position:relative;padding: 5px 20px ;border-bottom: thin lightslategray solid;font-family: Arial, Helvetica, sans-serif;}
+.event .icon{float:left;width:25px;}
+.event .start_time{float:left;color:red;width:95px;}
+.events .details{display:inline-block;font-size:16px;color:black;}
+.events .details p{font-size:14px;color:grey;}
+.event img{vertical-align:middle;}
+.event a{position:absolute;top:6px;left:575px;font-size:14px;text-decoration:none;}
+
+.sponsors p{font-family: Arial, Helvetica, sans-serif;}
+
+
+.section_heading{clear:left;}
+.section_heading a{position:absolute;top:6px;font-size:20px;color:white;}
+.section_heading  p {padding: 5px 20px;font-size:20px;color:white;}
+.section_heading img{vertical-align:middle;}
+.venue a {left:500px;}
+#sponsors {left:550px;}
+#map_canvas{height:100%;width:100%;border: thin solid black; float:left;margin: 0 10px 10px 0}
+#content .description p{font-size:16px;line-height:1.4em;padding-bottom:10px;}
+
+h4{clear:left;}
+
+
+
+
+
+
+#maincontainer{width:960px;margin:0 auto;margin-top:10px;}
+
+.innertube,#popup{padding: 10px;}
+
+#content{
+
+float:right;
+width:690px;
+
+/*margin-left: 270px; /*Set left margin to LeftColumnWidth*/
+border-radius: 15px;
+background:  url(../images/content_background.png )
+}
+
+
+.nav{
+position:fixed;
+float: left;
+width: 260px; /*Width of left column*/
+
+background: #C8FC98;
+border-radius: 15px;
+background:  url(../images/nav_background.png)
+}
+
+.nav a, .nav a:hover, .nav a, .nav a:visited{text-decoration:none;color:black}
+.nav h1{font-size:25px;text-align:center;color:#EEA946;}
+.nav p{line-height:1.2em;font-family: Arial,Helvetica,sans-serif; ;margin-bottom:10px;}
+
+#footer{
+margin-top:10px;
+width: 100%;
+background:  url(../images/content_background.png ) ;
+color: #FFF;
+text-align: center;
+padding: 10px 0;
+border-radius: 15px;
+
+}
+#footer {padding: 10px;}
+.small_logo{width:120px;height:183px;margin: 0px auto;background-image: url('../images/logo_small.png')}
+
+.glow{text-shadow: 0px 0px 2px , 0px 5px 10px #000;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.download{position:relative;width:100%;text-align:center;}
+
+.download p{color:white; font-family: Arial,Helvetica,sans-serif; font-size:12px;}
+.download a{color:red; font-family: Arial,Helvetica,sans-serif; font-size:12px;}
+
+#CSS_overlay
+{
+ display: none;
+ position: fixed;left: 0px;top:0px;width: 100%;height: 100%;
+ text-align: center;
+ z-index: 10;
+ background-color: rgb(0,0,0);
+ cursor: wait;
+ opacity: 0.5;
+
+}
+
+#popup{width:600px;
+ display: none;
+	border-radius: 20px;
+	background-color: linen;
+position:absolute;z-index:20;
+padding:20px;
+background:#ffffff url('../images/bkg.frm.jpg') no-repeat right top; 
+
+  -moz-box-shadow: 10px 10px 5px #000;
+  -webkit-box-shadow: 10px 10px 5px #000;
+  box-shadow: 10px 10px 5px #000;
+;}
+
+
+#popup img{vertical-align:base;}
+#popup h1{display:inline;padding: 0 30px;font-family: Arial,Helvetica,sans-serif; font-size:30px;}
+#popup h2, #popup p{font-family: Georgia, Georgia, serif; }
+#popup h2{font-size:20px;color:red;}
+#popup p{font-size:16px;line-height:1.2em;padding:5px 0;}
+
+
+.link_schooner{background-image: url('../images/adventure_logo.png');width:304px;height:111px;display: inline-block;}
+.link_clearsailing{background-image: url('../images/clear_logo.png');width:200px;height:73px;display: inline-block;}
+.link_schedule{background-image: url('../images/download.png');width:449px;height:57px;display: inline-block;}
+.link_map{background-image: url('../images/downloadmap.png');width:329px;height:57px;display: inline-block;}
+
+hr{    border-style: inset;
+    border-width: 1px;margin:9px;}
