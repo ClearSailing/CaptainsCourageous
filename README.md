@@ -1,4 +1,4 @@
-# CaptainsCourageous
+# Captains Courageous
 
 This is a website I created for a one day festival held in Gloucester back in 2012. 
 
